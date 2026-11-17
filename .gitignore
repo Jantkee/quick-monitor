@@ -1,0 +1,12 @@
+# 构建产物
+build/
+*.jar
+
+# 编辑器
+.idea/
+.vscode/
+*.iml
+
+# 系统
+Thumbs.db
+.DS_Store

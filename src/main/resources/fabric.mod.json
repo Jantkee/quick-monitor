@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "quick-monitor",
+  "version": "0.1.0+26.2",
+  "name": "Quick Monitor",
+  "description": "Admin spectate and read-only inventory inspection for Fabric servers. Server-side only; no client mod required.",
+  "authors": ["Jantkee"],
+  "contact": {
+    "sources": "https://github.com/Jantkee/quick-monitor",
+    "issues": "https://github.com/Jantkee/quick-monitor/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/quick-monitor/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.quick.monitor.QuickMonitor"]
+  },
+  "mixins": ["quick-monitor.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "26.2",
+    "java": ">=25"
+  },
+  "suggests": {
+    "soudache": "*"
+  }
+}

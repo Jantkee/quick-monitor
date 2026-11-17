@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.quick.monitor.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "server": [
+    "AbstractContainerMenuMixin",
+    "ServerGamePacketListenerMixin",
+    "ServerPlayerMenuMixin",
+    "MerchantMenuAccessor",
+    "MerchantContainerAccessor",
+    "ServerPlayerStillValidMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
